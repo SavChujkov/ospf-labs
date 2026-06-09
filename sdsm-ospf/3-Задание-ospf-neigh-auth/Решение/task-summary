@@ -1,0 +1,9 @@
+
+
+## Включаем auth на backbone-2 / backbone-1 / <любой другой роутер на этом сегменте>
+ - ip ospf authentication message-digest
+ - ip ospf authentication message-digest-key 1 md5 P@ss0rd
+
+## Проверяем
+- смотрим ip ospf neigbor, если соседства подвисли
+- смотрим debug ip ospf adj, если не нашли причину сразу сходу 
